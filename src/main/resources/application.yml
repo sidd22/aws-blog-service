@@ -1,0 +1,13 @@
+amazon:
+  access:
+    key: CHANGETHISKEY
+    secret-key: CHANGETHISSECRETKEY
+  region: us-west-1
+  end-point:
+    url: dynamodb.us-west-1.amazonaws.com
+server:
+  port: 9001
+spring:
+ jackson:
+   serialization:
+     INDENT_OUTPUT: true
